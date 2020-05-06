@@ -1,5 +1,7 @@
 module Reports::Exporters
   class LinksStatisticExporter < BaseExporter
+    private
+
     def exportable_fields
       {
         url:          'FULL URL',
@@ -9,7 +11,7 @@ module Reports::Exporters
     end
 
     def name
-      'LinkStatisticReport'
+      'LinkStatisticReport'.freeze # report itself should tell us this? Let's talk... :)
     end
   end
 end
