@@ -15,7 +15,9 @@ class Clicker
   private
 
   def create_or_find_ip_address(ip_addr)
-    IPAddress.create_or_find_by_ip_addr(ip_addr)
+    ip_address = IPAddress.new(ip_addr: ip_addr)
+
+    IPAddressBuilder.(ip_address)
   end
 
   def create_click(ip_address, referer)
