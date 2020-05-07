@@ -12,9 +12,7 @@ module Reports::Exporters
     def export_data
       @data ||= begin
         add_header
-
         add_body
-
         add_footer
 
         formatted_data
