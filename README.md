@@ -1,6 +1,6 @@
 # OVERVIEW
 
-This app is about making short links, collecting user information, and generating some reports.
+This app is about making short links, collecting user information, and generating some reports(with the ability to export it as any format, CSV supported as of now, and to provide as a Rest-JSON endpoint).
 
 ## Architecture
 
@@ -10,6 +10,6 @@ The information collecting is happening in the background and I did not pay any 
 
 ## Thoughts
 
-I tried to follow OOP principles but still see that the Strategy pattern and the desire/experiment to make ruby more static language is decreasing the readability of the code. Some of my thoughts are in the comments. 
+I tried to follow OOP principles but still see that the Strategy pattern and the desire/experiment to make ruby more static language is decreasing the readability of the code. Some of my thoughts are in the comments.
 
-### Enjoy!.. And feel free to ask any questions or provide enhancements. I am ready to discuss 
+### Enjoy!.. And feel free to ask any questions or provide enhancements. I am ready to discuss

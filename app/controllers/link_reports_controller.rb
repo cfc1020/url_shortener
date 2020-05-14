@@ -38,6 +38,12 @@ end
 #     resources :link_reports, only: %i[create]
 #   end
 #
+#   namespace :api, defaults: { format: 'json' } do
+#     namespace :v1 do
+#       resources :link_reports, only: %i[create]
+#     end
+#   end
+#
 #   mount Sidekiq::Web => '/sidekiq'
 #
 #   match '*short_url' => 'links#click', via: [:get]
